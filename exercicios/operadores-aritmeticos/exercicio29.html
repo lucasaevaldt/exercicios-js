@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 29</title>
+</head>
+<body>
+    <h1>Praticando Javascript</h1>
+    <script>
+        //Converter segundos para horas, minutos e segundos
+        let segundosTotais = 3661;
+        let horas = Math.floor(segundosTotais / 3600);
+        let minutos = Math.floor((segundosTotais % 3600) / 60);
+        let segundos = segundosTotais % 60;
+        console.log(horas + " horas, " + minutos + " minutos e " + segundos + " segundos")
+    </script>
+</body>
+</html>
