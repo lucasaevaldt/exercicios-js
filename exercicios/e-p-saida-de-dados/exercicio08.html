@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 08</title>
+</head>
+<body>
+    <h1>Praticando Javascript</h1>
+    <script>
+        //Pergunte ao usuário dois números e a operação (soma, subtração, multiplicação ou divisão) e exiba o resultado.
+        let num1 = parseFloat(prompt("Insira o primeiro numero"));
+        let num2 = parseFloat(prompt("Insira o segundo numero"));
+        let operacao = prompt("Escolha a operação: +, -, *, /");
+        let resultado;
+        if (operacao === "+") {
+            resultado = num1 + num2;
+        } else if (operacao === "-") {
+            resultado = num1 - num2;
+        } else if (operacao === "*") {
+            resultado = num1 * num2;
+        } else if (operacao === "/") {
+            resultado = num1 / num2;
+        } else {
+            alert("Operação inválida!");
+        }
+        alert("O resultado é: " + resultado);
+    </script>
+</body>
+</html>
