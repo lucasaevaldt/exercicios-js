@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 07</title>
+</head>
+<body>
+    <p id="paragrafo">Parágrafo invisível</p>
+    <button id="botao">Alternar visibilidade</button>
+    <script>
+        //Ao clicar em um botão, o parágrafo deve alternar entre visível e invisível.
+
+        const paragrafo = document.getElementById("paragrafo");
+        const botao = document.getElementById("botao");
+        botao.addEventListener("click", () => {
+            paragrafo.style.display = (paragrafo.style.display === "none") ? "block" : "none";
+        })
+    </script>
+</body>
+</html>

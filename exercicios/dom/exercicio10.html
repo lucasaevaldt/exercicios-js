@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+<body>
+    <ul id="lista">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <script>
+        //Adicione um novo item "Novo Item" a uma lista ul.
+
+        const lista = document.getElementById("lista");
+        const novoItem = document.createElement("li");
+        novoItem.textContent = "Novo Item";
+        lista.appendChild(novoItem);
+    </script>
+</body>
+</html>
