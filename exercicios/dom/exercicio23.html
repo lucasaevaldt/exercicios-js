@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23</title>
+</head>
+<body>
+    <button id="botao">Clique para desabilitar</button>
+    <script>
+        //Após clicar em um botão, ele deve ser desabilitado.
+        const botao = document.getElementById("botao");
+
+        botao.addEventListener("click", () => {
+            botao.disabled = true;
+        }) 
+    </script>
+</body>
+</html>

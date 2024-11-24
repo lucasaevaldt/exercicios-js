@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25</title>
+    <style>
+        div {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="minhaDiv" >Conteúdo da div</div>
+    <button id="botao">Mover para direita</button>
+    <script>
+        //Ao clicar em um botão, mova uma div 50px para a direita.
+        
+        const minhaDiv = document.getElementById("minhaDiv");
+        const botao = document.getElementById("botao")
+
+        botao.addEventListener("click", () => {
+            minhaDiv.style.left = (parseInt(minhaDiv.style.left || 0) +50) + "px";
+        })
+    </script>
+</body>
+</html>

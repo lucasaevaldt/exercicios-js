@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 22</title>
+</head>
+<body>
+    <ol id="lista"></ol>
+    <script>
+        //Adicione números de 1 a 5 em uma lista ordenada (ol) usando JavaScript.
+
+        const lista = document.getElementById("lista");
+
+        for (let i = 1; i <= 5; i++) {
+            const item = document.createElement("li");
+            item.textContent = i;
+            lista.appendChild(item);
+        }
+    </script>
+</body>
+</html>

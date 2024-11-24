@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 28</title>
+</head>
+<body>
+    <p id="contador">Cliques: 0</p>
+    <button id="botao">Clique-me</button>
+    <script>
+        //Exiba o número de vezes que o botão foi clicado em um parágrafo.
+
+        const contador = document.getElementById("contador");
+        const botao = document.getElementById("botao");
+        let cliques = 0;
+
+        botao.addEventListener("click", () => {
+            cliques++;
+            contador.textContent = `Cliques ${cliques}`;
+        })
+    </script>
+</body>
+</html>

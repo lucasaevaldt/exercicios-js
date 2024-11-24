@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 14</title>
+    <title>Exercício 16</title>
 </head>
 <body>
-    <input type="text" id="campoFormulario" value="Digite algo">
-    <button id="botao">Desabilitar campo</button>
+    <button id="botao">Clique aqui</button>
     <script>
-        //Desabilite um campo de formulário usando JavaScript.
+        //Quando um botão for clicado, o texto dele deve ser alterado para "Clicado!".
 
         const botao = document.getElementById("botao");
-        const campo = document.getElementById("campoFormulario");
 
         botao.addEventListener("click", () => {
-            campo.disabled = true;
+            botao.textContent = "Botão clicado!"
         })
     </script>
 </body>

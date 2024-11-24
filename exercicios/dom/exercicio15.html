@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 15</title>
+</head>
+<body>
+    <p id="paragrafo">Texto com fonte padrão.</p>
+    <button id="botao">Aumentar Fonte</button>
+    <script>
+        //Ao clicar em um botão, altere o tamanho da fonte de um parágrafo para 30px.
+
+        const paragrafo = document.getElementById("paragrafo");
+        const botao = document.getElementById("botao");
+
+        botao.addEventListener("click", () => {
+            paragrafo.style.fontSize = "30px";
+        });
+    </script>
+</body>
+</html>

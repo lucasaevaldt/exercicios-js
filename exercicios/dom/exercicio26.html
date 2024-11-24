@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 26</title>
+</head>
+<body>
+    <p id="paragrafo">Texto 1</p>
+    <button id="botao">Alterar texto</button>
+    <script>
+        //Ao clicar em um botão, alterne entre dois textos diferentes em um parágrafo.
+        
+        const paragrafo = document.getElementById("paragrafo");
+        const botao = document.getElementById("botao");
+        botao.addEventListener("click", () => {
+            paragrafo.textContent = paragrafo.textContent === "Texto 1" ? "Texto 2" : "Texto 1";
+        }) 
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 17</title>
+</head>
+<body>
+    <p id="contador">0</p>
+    <button id="botao">Aumentar contador</button>
+    <script>
+        //Ao clicar em um botão, um número deve aumentar no parágrafo.
+        
+        const contador = document.getElementById("contador");
+        const botao = document.getElementById("botao");
+
+        let valor = 0;
+
+        botao.addEventListener("click", () => {
+            valor++;
+            contador.textContent = valor;
+        })
+    </script>
+</body>
+</html>
