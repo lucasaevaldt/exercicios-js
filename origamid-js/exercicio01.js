@@ -14,7 +14,7 @@ if (minhaIdade > idadeParente) {
 /* Qual valor é retornado na seguinte expressão? */
 var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
 console.log(expressao);
-// Saida:
+// Saida: 3
 
 /* Verifique se as seguintes variáveis são Truthy ou Falsy */
 var nome = 'Andre'; // Saida: true
