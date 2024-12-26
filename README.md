@@ -24,9 +24,8 @@ This repository contains my studies in JavaScript, programming logic, and algori
 ## Technologies Used
 
 - **JavaScript**: Main language for the studies.
-- **Node.js**: To run scripts locally.
 - **HTML/CSS**: To test interactions and DOM manipulation.
 
 
-**Author:** [Your Name](https://github.com/lucasaevaldt)  
-**Contact:** [your.email@example.com](mailto:lucasantonioevaldt@gmail.com)
+**Author:** [lucasaevaldt](https://github.com/lucasaevaldt)  
+**Contact:** [lucasantonioevaldt@gmail.com](mailto:lucasantonioevaldt@gmail.com)
